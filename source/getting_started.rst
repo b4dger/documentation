@@ -1,13 +1,13 @@
 Getting Started Guide
 =====================
 
-This guide is designed to help understand how to get up and running on the ObjectRocket system quickly and easily. There are just a few steps that need to be completed to be up and running with a brand new instance. This guide assumes using the ObjectRocket web interface.
+This guide is designed to help understand how to get you up and running on the ObjectRocket system quickly and easily. There are just a few steps to be completed and you will be up and running with a brand new instance. This guide assumes you are using the ObjectRocket web interface.
 
-There are just a few steps to getting up and running:
+Here are the steps to getting up and running:
 
 1. Create an ObjectRocket account, instance, and enter billing info.
 2. Create a database
-3. Add a ACL
+3. Add an ACL
 
 Create an ObjectRocket account
 ----------------
@@ -58,10 +58,10 @@ ObjectRocket grants access utilizing a combination of native MongoDB authenticat
 
 .. _instances: https://app.objectrocket.com/instances
 
-Add a ACL
+Add an ACL
 ~~~~~~~~~~~~~~~~~~~~~~
 
-An ACL allows access from an outside network into the ObjectRocket system. It's based on an CIDR type IP address mask. ObjectRocket makes it easy to manage your ACL lists. Head to the `instances`_ page then click on the instance you would like to add a ACL to. Select the ACL tab, and the add ACL button. ACL's are granted to an instance, so they allow access to every database in that instance. Enter the IP address of your client, and a brief description. The description just helps you keep track of what rules you have already created easily. If you don't know the address of your client, appserver, or webserver you can get it's address using this technique:
+An ACL allows access from an outside network into the ObjectRocket system. It's based on an CIDR type IP address mask. ObjectRocket makes it easy to manage your ACL lists. Head to the `instances`_ page then click on the instance you would like to add a ACL to. Select the ACL tab, and the add ACL button. ACL's are granted to an instance, so they allow access to every database in that instance. Enter the IP address of your client, and a brief description. The description just helps you keep track of what rules you have already created easily. If you don't know the address of your client, appserver, or webserver you can get its address using this technique:
 
 .. code-block:: bash
 
